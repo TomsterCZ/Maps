@@ -1,0 +1,88 @@
+﻿Data Governance Policy for Amazon Data
+________________
+
+
+1. Purpose and Scope
+This policy outlines the principles and procedures governing the collection, processing, storage, usage, sharing, and disposal of data received from Amazon. Its primary objective is to safeguard Amazon customers’ data, ensuring compliance with Amazon’s Data Protection Policy (DPP) and Acceptable Use Policy (AUP), as well as applicable legal and regulatory standards.
+This policy applies to all employees, departments, and contractors within the company who handle Amazon data.
+________________
+
+
+2. Data Collection
+Amazon data is collected exclusively for the following purposes:
+* Order Fulfillment: Customer order details are retrieved via Amazon’s API to facilitate accurate and timely order processing.
+* Legal and Tax Compliance: Customer data is used for VAT calculations, invoicing, and other legally mandated purposes.
+The collected data may include:
+* Customer order details
+* Shipping addresses
+* Personally Identifiable Information (PII), such as names and contact details
+Access Control: Data access is restricted to authorized personnel based on operational roles, and collection is limited to what is strictly necessary for the intended purposes.
+________________
+
+
+3. Data Processing
+Amazon data is processed within secure systems for the following functions:
+* Order Management: Managing, processing, and tracking customer orders.
+* Billing and VAT Calculation: Utilizing data to generate accurate invoices and ensure compliance with tax regulations.
+* Personalized Product Creation: Processing customer-provided images and names for the production of personalized products.
+Processing Safeguards:
+* Access is role-based and limited to employees with explicit authorization.
+* All data handling is governed by strict confidentiality and security protocols.
+________________
+
+
+4. Data Storage
+Amazon data is securely stored within MongoDB Atlas using AES-256 encryption. Storage protocols ensure robust security and compliance with Amazon’s requirements.
+Key Security Measures:
+* Access Control: Only employees with a legitimate business need can access data, authenticated through individual credentials.
+* Encryption: Data is encrypted both in transit and at rest using AES-256.
+* IP Restriction: Access to stored data is restricted to specific, pre-approved IP addresses.
+Retention periods align with legal and business requirements, and data is deleted once no longer necessary.
+________________
+
+
+5. Data Usage
+Amazon data is utilized strictly for the following purposes:
+* Order Fulfillment: Ensuring customer orders are accurately completed and shipped.
+* Legal and Tax Compliance: Enabling VAT calculation, invoicing, and adherence to tax laws.
+* Personalized Products: Facilitating customer-specific product customization.
+Data usage adheres to the principle of least privilege, ensuring only employees whose roles necessitate access can handle the data.
+________________
+
+
+6. Data Sharing
+Amazon data is not shared with any third parties or external services. Data sharing within the organization is strictly limited to essential personnel.
+* The company does not integrate Amazon data with any external system, ensuring compliance with Amazon’s policies.
+* Internal sharing is controlled and documented.
+________________
+
+
+7. Data Disposal
+Data retention and disposal follow strict timelines to comply with legal, business, and Amazon requirements:
+* Retention Periods:
+   * PII is permanently deleted 30 days after fulfillment unless required for legal compliance.
+* Secure Deletion: All data disposal complies with NIST 800-88 standards, ensuring it is irrecoverable.
+Disposal Process:
+* Permanent deletion is conducted using certified tools and methods.
+* Deletion activities are logged and verified for audit purposes.
+________________
+
+
+8. Policy Review and Compliance
+This policy is reviewed every six months or whenever there is a material change in Amazon’s policies or legal requirements.
+Training and Awareness:
+* All employees handling Amazon data receive annual training on data protection and security.
+* Compliance documentation is reviewed regularly to ensure alignment with Amazon’s DPP and AUP.
+Audits:
+* Regular internal audits are conducted to assess adherence to this policy.
+* Non-compliance is addressed immediately, with corrective actions documented and enforced.
+________________
+
+
+9. Enforcement
+Failure to comply with this policy may result in disciplinary action, including termination of employment or contractual agreements. Severe violations may also lead to legal consequences. Employees are required to report any potential breaches or incidents to the Data Protection Officer (DPO) immediately.
+________________
+
+
+Conclusion
+This policy reflects the company’s commitment to data protection, security, and compliance with Amazon’s data governance requirements. By adhering to these principles, the company ensures trust and integrity in managing sensitive customer information.
